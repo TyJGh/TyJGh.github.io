@@ -1,0 +1,339 @@
+<!DOCTYPE html><HTML lang="en">
+
+
+<HEAD>
+  <META content="text/html;charset=utf-8" http-equiv="Content-Type">
+
+  <TITLE>LDtop working group</TITLE>
+
+  <SCRIPT>
+			
+	document.createElement('header');
+			
+	document.createElement('nav');
+			
+	document.createElement('section');
+
+
+  </SCRIPT>
+  
+  <!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.min.js"></script> 
+		<script>
+            function equalHeight(group) {
+               tallest = 0;
+               group.each(function() {
+                  thisHeight = $(this).height();
+                  if(thisHeight > tallest) {
+                     tallest = thisHeight;
+                  }
+               });
+               group.height(tallest);
+            }
+            $(document).ready(function() {
+               equalHeight($(".column"));
+            });
+
+
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+  <STYLE type="text/css">
+div {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+	min-width: 470px;
+	height: auto;
+} 
+a, a:visited, a:link {
+	color:#e84910;
+	text-decoration:none;
+}
+
+			
+body{padding-top:4%;
+	background:#aaaaaa;
+	color:#000000;
+	font-family:Helvetica, sans-serif;
+	font-size:15px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+			
+	
+img{	border-radius: 5px;
+	border:0px solid #000000;
+	margin:0px 0px 0px 0px}
+
+header,nav,section{display:block; border-radius: 20px;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav{
+	min-height: 50px;
+	background: #ffffff;
+	font-size:16px;
+	Margin-bottom: 15px;
+}
+
+nav .inbar{
+	padding-top: 8px;
+	display:block;
+	height:36px;
+}
+
+nav ul, nav ul li, nav ul lic{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	height:36px;
+	line-height:36px; } 
+
+nav ul li{
+	Float:left;
+	display:block;
+	line-height:36px; }
+
+nav ul li a{
+	color:#e84910;
+	text-decoration:none;
+	font-weight:bold;
+	display:block; }
+
+nav ul li a span{
+	padding:0 20px 0px 20px;
+	height:36px;
+	line-height:33px;
+	display:block;
+	text-align:center;
+	margin-right:10px; }
+
+header{
+	background:#ffffff;
+	color:#e84910;
+	min-height: 60px;
+	font-size:30px;
+	font-weight:bold;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom: 5px;
+}
+			
+
+		
+section{background:#ffffff;
+	color: #000000;
+	padding-left:20px;
+	padding-top:5px;
+	padding-right:40px;
+	padding-bottom:10px;
+	margin-bottom: 15px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+		
+  </STYLE>
+
+
+  <meta name="generator" content="Bluefish 2.2.9" >
+
+</HEAD>
+
+<BODY>
+<div>
+  <HEADER>
+  <center> CIRGET low-dimensional topology working group </center>
+  </HEADER>
+    
+ 
+  
+  
+    <SECTION><p class="aligncenter" style="font-size:25px"><b>
+
+		Winter 2022</center><BR></b></p>
+	<p>
+
+<b>Time</b>: Mondays at 3:00pm<br>
+<b>Room</b>: PK-5675 in Pavillon President-Kennedy<br>
+<b>Zoom</b>: <a href="https://mcgill.zoom.us/j/84594627501">https://mcgill.zoom.us/j/84594627501</a><br>
+Please contact the organiser (<a href="https://tyjgh.github.io/">Tyrone Ghaswala</a>) if you would like to be added to the mailing list.<br>
+<br>
+
+</P>
+<P style="font-size:20px"> 
+<center>
+<B>Upcoming Meetings</B><br>
+	<p>There are no future meetings planned at the moment.</p>
+</center>
+<br>
+
+
+
+<p class="aligncenter"><IMG SRC="surfmonster.png" width=200px></p>
+
+<P style="font-size:20px"><center><b>
+Past Meetings</b>
+</center>
+<br>
+
+<b>December 15th, 2021: <a href="https://www.math.toronto.edu/safibn/">Assaf Bar-Natan</a></b><br>
+<b>The Grand Arc Graph on Infinite-Type Surfaces</b>
+<p style="font-size:small">In this talk, I will be defining the grand arc graph for infinite-type surfaces. This simplicial graph is motivated by the works of Fanoni-Ghaswala-McLeay, Bavard, and Bavard-Walker to define an infinite-type analogue of the curve graph. As in these earlier works, the grand arc graph is connected, (oftentimes) infinite-diameter, and delta hyperbolic. Moreover, the mapping class group acts on it by isometries, and the action is continuous on the visible boundary. This is joint work with Yvon Verberne.</p>
+	
+<b>November 17th, 2021: <a href="markcbell.github.io">Mark Bell</a></b><br>
+<b>An introduction to bigger</b>
+<p style="font-size:small">We will give a quick demo of the Python package <a href="http://biggermcg.readthedocs.io/">bigger</a>. This can be used to draw pictures of laminations on infinite-type surfaces and see how big mapping classes act on them. It’s like <a href="https://flipper.readthedocs.io/">flipper</a> and <a href="https://curver.readthedocs.io/">curver</a>, but can handle infinite-type surfaces through being lazy about the computations it performs.
+</p>
+  
+<b>November 17th, 2021: <a href="https://www.math.wustl.edu/~landry/">Michael Landry</a></b><br>
+<b>Endperiodic maps and pseudo-Anosov flows</b>
+<p style="font-size:small">Endperiodic surface automorphisms arise in nature as monodromies of noncompact leaves of depth 1 foliations of 3-manifolds. In the early 90s Handel and Miller studied these maps and proved that they exhibit much of the behavior present in the finite type setting as described by the Nielsen-Thurston classification. In particular, endperiodic maps preserve (up to homotopy) a pair of transverse laminations which are stretched and squeezed. I will discuss these Handel-Miller laminations and how they are related to the stable and unstable foliations of certain flows in 3-manifolds. This is joint work in progress with Yair Minsky and Samuel Taylor.</p>
+
+<b>October 20th, 2021: <a href="https://www.math.utah.edu/~hoganson/">Hannah Hoganson</a></b><br>
+<b>A Graph Analogue of Big Mapping Class Groups</b>
+<p style="font-size:small">
+Recently Algom-Kfir and Bestvina introduced the group Maps(X) for locally finite graphs X as a proposed analogue for Out(F_n) in the infinite-type setting. We will discuss the classification of infinite-type graphs, the group Maps(X), and explore some of its similarities and differences with mapping class groups of infinite-type surfaces. We will conclude by discussing the coarse geometry of PMaps(X), which is joint work with George Domat and Sanghoon Kwak.</p>
+
+<b>September 15th, 2021: <a href="http://www.patelp.com/">Priyam Patel</a></b> <br>
+<b>Finding and combining indicable subgroups of big mapping class groups</b>
+<p style="font-size:small">
+In this talk, I’ll present a new way of constructing subgroups of infinite-type mapping class groups via a combination theorem for indicable subgroups. One of the applications of our main theorem is a construction for right-angled Artin groups in big mapping class, which I’ll also describe. This work is joint with Carolyn Abbott, Hannah Hoganson, Marissa Loving, and Rachel Skipper.</p>
+
+<b>June 3rd, 2021: <a href="https://math.ou.edu/~jmalestein/">Justin Malestein</a></b><br>
+<b>The Big Swindle</b>
+<p style="font-size:small">In this talk, I will discuss the problem of when big mapping class groups are generated by involutions. Specifically, I will talk about surfaces with a self-similar ends space and 0 or infinite genus. In the case where the ends space has infinitely many maximal ends, we can show that the mapping class group is normally generated by a single involution, boundedly generated by involutions, and uniformly perfect. Conversely, in the case where there is one maximal end, we can produce infinitely many examples of mapping class groups that are neither perfect nor generated by torsion elements. Joint work with Jing Tao.</p>
+
+<b>May 20th, 2021: <a href="https://perso.univ-rennes1.fr/barbara.schapira/index.html">Barbara Schapira</a></b><br>
+<b>Counting closed geodesics on noncompact hyperbolic surfaces.</b>
+
+<p style="font-size:small">
+It is well known since decades that the number of (oriented) closed geodesics of a compact hyperbolic surface of length at most \(T\) grows as \(\frac{e^T}{T}\) when \(T\to \infty\). This has been generalized to noncompact hyperbolic surfaces with a fundamental group of finite type.<br>
+In a recent work with Samuel Tapie, we prove that a similar estimate is valid on a much larger class of geometrically infinite surfaces, as soon as a certain measure, the so-called Bowen-Margulis measure, is finite.<br>
+In my talk, I will precise the context, the statement, give some examples, and if time allows, explain some arguments.<br>
+The paper proving this result is <a href="https://hal.archives-ouvertes.fr/hal-02192686/document">here</a>.</p>
+
+<b>May 6th, 2021: <a href="https://sites.google.com/site/jhdezhdez/">Jes&uacute;s Hern&aacute;ndez Hern&aacute;ndez</a></b><br>
+<b> Big mapping class groups of non-orientable surfaces of infinite type</b>
+<p style="font-size:small">
+In this talk we will discuss the classification of non-orientable surfaces of infinite type, and we will see which "classical" results are still valid in this context (in particular the first cohomology group of the pure mapping class group). All of this will be done while highlighting the differences between this case and the orientable case.</p>
+<b>April 22th, 2021: <a href="https://sites.google.com/view/ryandickmann">Ryan Dickmann</a></b><br>
+<b>What about surfaces with noncompact boundary?</b><br>
+
+<p style="font-size:small">
+I will talk about the widely unknown classification of surfaces with boundary by Brown and Messer and how it can be used to cut a surface into pieces that I call "Sliced Loch Ness Monsters". The mapping class groups of the Sliced Loch Ness Monsters are uniformly perfect, and this can be combined with the aforementioned tool (and the work of Domat in the cases with compact boundary) to classify the surfaces with perfect pure mapping class groups.</p>
+
+
+
+<b>April 8th, 2021: <a href="https://anschel.fyi/index.html">Anschel Schaffer-Cohen</a></b><br>
+<b>Cubical geometry in big mapping class groups</b><br>
+<p style="font-size:small">Using the framework of coarsely bounded generating sets, we show that a large class of surfaces&mdash;
+the translatable/avenue surfaces without significant genus&mdash;
+are quasi-isometric to an infinite-dimensional cube graph. This has two consequences, each of which is in contrast to finite-type mapping class groups: quasi-isometric non-rigidity, and a-T-menability.</p>
+
+<b>March 25th, 2021: <a href="https://math.uni.lu/parlier/">Hugo Parlier</a></b> <br>
+<b>Triangles are our favorite shape</b>
+<p style="font-size:small">
+This talk will be about ideal triangulations of infinite type surfaces. The first part is about joint work with Alan McLeay where we show that they exist. Then, in joint work with Ariadna Fossas, we study a type of flip graph for the triangulations.</p>
+
+<b>March 11th, 2021: <span style="color:#e84910;">Benjamin Branman</span></b><br>
+<b>Spaces of Pants Decompositions for Surfaces of Infinite Type</b><br>
+<p style="font-size:small">We study the pants graph of surfaces of infinite type.  When S is a surface of infinite type, the usual definition of the graph of pants decompositions yields a graph with infinitely many connected-components.  In the first part of our talk, we study this disconnected graph.  In particular, we show that the extended mapping class group of S is isomorphic to a proper subgroup of the automorphism group of the pants graph, in contrast to the finite-type case.<br>
+In the second part of the talk, motivated by the Metaconjecture of Ivanov, we seek to endow the pants graph with additional structure. To this end, we define a coarser topology on the pants graph than the topology inherited from the graph structure.  We show that our new space is path-connected, and that its automorphism group is isomorphic to the extended mapping class group.</p>
+
+<b>February 25th, 2021: <a href= "https://www.math.fsu.edu/~fenley/">Sergio Fenley</a></b><br>
+<b>Endperiodic automorphisms of surfaces and invariant
+geodesic laminations</b><br>
+<p style="font-size:small">We discuss the basic theory of endperiodic automorphisms
+of sufaces - primarily the infinite genus case. Associated to any
+such map there is a depth one foliation of a 3-manifold. This is
+the closest type of a foliation to a fibration over the circle.<br>
+We use hyperbolic geometry and the study of the homeomorphism
+to produce invariant geodesic laminations in the surface. In
+the irreducible case these geodesic laminations fill the surface.</p>
+
+<b>February 11th, 2021: <a href="https://math.nickvlamis.com/">Nicholas Vlamis</a></b><br>
+<b>Mapping class groups with the Rokhlin property</b><br>
+<p style="font-size:small"> A topological group has the Rokhlin property if it has a dense conjugacy class.  In this talk, we will give a complete classification of those mapping class groups with the Rokhlin property (and in particular, we will see that uncountably many do in fact have the Rokhlin property).  Will we also motivate our interest in the topic and describe some algebraic consequences of this dynamical/topological property.  This is joint work with Justin Lanier.</p>
+
+<b>January 28th, 2021: <a href="https://sites.google.com/view/aramayona/aramayona">Javier Aramayona</a></b><br>
+<b>Injective homomorphisms between big mapping class groups</b><br>
+<p style="font-size:small">
+This talk will focus on injective homomorphisms between big mapping class groups. Using a covering construction, we will exhibit two infinite-type surfaces without boundary whose mapping class group admits a
+continuous and injective, but not surjective, self-homomorphism. In addition, by means of a "surface doubling" argument, we will give uncountably many surfaces without boundary for which their pure mapping class group is
+not co-Hopfian.<br>
+We will then study (continuous) injective homomorphisms between arbitrary big mapping class groups that send Dehn twists to Dehn twists. We will prove that, provided the domain surface has positive genus, any such homomorphism is induced by a proper subsurface embedding.<br>
+This is joint work with Chris Leininger and Alan McLeay.</p>
+
+<b>January 14th, 2021: <a href="https://www.mathi.uni-heidelberg.de/~arandecker/">Anja Randecker</a></b><br>
+<b>The Veech group of the golden ladder</b><br>
+<p style="font-size:small">In the first semester of Big Surf, we have seen many results about topological infinite-type surfaces, sometimes equipped with a hyperbolic structure. I would like to start the new session by convincing you that there are also interesting questions when equipping an infinite-type surface with a flat structure.<br>
+The Veech group is the stabilizer of a flat surface under the \(\mbox{SL}(2,\mathbb{R})\)-action - it can be seen as an analogue of the mapping class group in the flat setting. I will use a specific example of an infinite-type flat surface and determine its Veech group to introduce you to the concepts and new questions.</p>
+
+<b>December 3rd, 2020: <a href="https://sites.google.com/view/basmajian/home">Ara Basmajian</a></b><br>
+<b>The type problem for Riemann surfaces via Fenchel-Nielsen parameters</b><br>
+<p style= "font-size:small">
+The focus of this talk is on geometric conditions for when a  Riemann surface is  of so-called  parabolic type.  That is, it does not support a Green's function or  equivalently  the geodesic flow on the unit tangent bundle  is ergodic. Given a Riemann surface X  of arbitrary topological type and a hyperbolic pants decomposition of X  we obtain sufficient conditions for parabolicity of X in terms of the Fenchel-Nielsen parameters of the decomposition. In particular, we initiate the study of the effect of twist parameters on parabolicity.   This is  joint work with Hrant Hakobyan and Dragomir Saric.</p>
+
+<b>November 19th, 2020: <a href="https://sites.google.com/view/elizabeth-field/home">Elizabeth Field</a></b><br>
+<b>End periodic homeomorphism and volumes of mapping tori</b><br>
+<p style= "font-size:small">
+In this talk, we will discuss mapping tori associated to irreducible, end periodic homeomorphisms of certain infinite-type surfaces. Inspired by a theorem of Brock in the finite-type setting, we will relate the minimal convex core volume of such a mapping torus to the translation distance of its monodromy on (a certain subgraph of) the pants graph. This talk represents joint work with Heejoung Kim, Chris Leininger, and Marissa Loving.</p>
+
+
+<b>November 12th, 2020: <a href="https://lvzhouchen.github.io/">Lvzhou Chen</a></b><br>
+<b>Existence of 2-filling rays</b><br>
+<p style= "font-size: small">
+ Bavard-Walker studied the complete ray-and-loop graph, where vertices are short rays, long rays, and loops. They showed that there is a main component containing all short rays and loops, which is quasi-isometric to the loop graph (known to be hyperbolic and has infinite diameter). All remaining components are cliques of the so-called high filling rays. Such cliques are in one-to-one correspondence to points in the Gromov boundary of the loop graph. They showed that any ray intersecting all loops and short rays either is high-filling or has distance 2 to some loop on the complete ray-and-loop graph (i.e. is 2-filling). In this joint work with Alexander Rasmussen, we give flexible constructions to show 2-filling rays exist and abound on the plane minus a Cantor set.
+</p>
+
+<b>October 29th, 2020: <a href="https://e.math.cornell.edu/people/mann/index.html">Kathryn Mann</a></b><br>
+<b>Automatic continuity for group homomorphisms</b>
+<p style= "font-size: small">
+A group G has the (strong) automatic continuity property if every group homomorphism from G to any other separable group is necessarily continuous.  In other words, the algebraic structure of the group remembers all its topology!   Groups that are known to have this property are, for the most part, the automorphism groups of highly homogeneous structures.  I'll show how some big mapping class groups have this property, some don't, and for most of them we don't know!  I'll also discuss other related open questions.</p>
+
+<b>October 15th, 2020: <a href="https://sites.google.com/view/georgedomat">George Domat</a></b><br>
+<b>Big Pure Mapping Class Groups are Never Perfect</b>
+<p style= "font-size: small">
+Pure mapping class groups of finite type surfaces are known to have trivial abelianizations (perfect) once the surface has genus at least 3 due to a classic result of Powell. Aramayona-Patel-Vlamis showed that this is not always true for pure mapping class groups of infinite type surfaces. We show that this is in fact never the case for any infinite type surface. Furthermore, we show that the abelianization of the closure of the compactly supported mapping classes contains a direct summand isomorphic to an uncountable direct sum of \(\mathbb{Q}\)s. To find nontrivial elements in the abelianization we use the projection complex machinery of Bestvina-Bromberg-Fujiwara to build quasimorphisms that "see" certain infinite products of Dehn Twists. 
+</p>
+
+
+<b>October 1st, 2020: <a href="https://ryleealanza.org/">Rylee Lyman</a></b><br>
+<b>Nielsen Realization for Infinite-Type Surfaces</b>
+
+<p style= "font-size: small">In 1983, Kerckhoff showed that finite subgroups of mapping
+class groups of finite-type surfaces always arise as groups of
+isometries of some hyperbolic metric on the surface. We extend this
+result to orientable, infinite-type surfaces. In this talk I will
+discuss the theorem, sketch its proof, and discuss some consequences for
+the classification of subgroups of big mapping class groups.</p>
+
+<b>September 17th, 2020: <a href="https://sites.google.com/view/tarikaougab/home">Tarik Aougab</a></b><br>
+<b>Isometry groups of infinite genus hyperbolic surfaces</b>
+
+<p style= "font-size: small">Allcock proved that for any countable group G, there exists a surface S (which is necessarily of infinite type when G is not finite) and a hyperbolic metric on S so that the corresponding isometry group is precisely G. We ask and answer a related question: fixing the topology of S, which countable groups arise as isometry groups of hyperbolic metrics on S? When S has a countable end space and every end is accumulated by genus, we give a complete answer to this question, and when the countability assumption is dropped, we give an almost complete answer. We'll discuss some group theoretic and topological applications, and ideas behind (some of) the proofs. This represents joint work with Priyam Patel and Nicholas Vlamis. 
+</p>
+
+<b>September 3rd, 2020: <a href="http://www.math.toronto.edu/~rafi/">Kasra Rafi</a></b><br>
+<b>Large Scale Geometry of Big Mapping Class Groups</b>
+<p style= "font-size: small">We apply the framework of Rosendal for the study of the coarse geometry of non locally compact groups in the setting of Mapping Class Groups of surfaces of infinite type. Under mild conditions, we give a classification of which Mapping Class Groups have a well defined quasi-isometry type and, amount those, which Mapping Class Groups are quasi-isometric to a point (Joint with Kathryn Mann). We give a classification of Mapping Class Groups that act non-trivially on a hyperbolic space (Joint with Horbez and Qing). We also show that the presence of an essential shift implies that the Mapping Class Group has infinite asymptotic dimension (Joint with Grant and Verberne). We will close some conjectures and open problems regarding the geometry of  Big Mapping Class Groups.</p>
+<br>
+
+</P>
+    </SECTION>
+
+
+
+</BODY>
+</HTML>
